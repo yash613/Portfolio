@@ -1,0 +1,162 @@
+
+
+
+body{
+
+  margin: 0;
+  text-align: center;
+ font-family: 'Merriweather', serif;
+ color: #40514E;
+ /*font-size: 1rem we prefer
+ font-size:2em it's dynamic way  which will be inherited like agar h1 m font size 4em deta hu to h1 ka total 6em hojaega*/
+ /******** using % is also dynamic way 100%=1em **********/
+ /******* static way font-size:50px; which will not be inherited ***************/
+ /******* 1em=16px *************/
+ /***** we can use rem which does not depend on parent ******/
+}
+
+h1{
+font-size: 5.625rem;
+ margin: 50px auto 0 auto;
+ font-family: 'Sacramento', cursive;
+ /* if it is block element and we have defined width then we have to centre it by using margin (margin: 0 auto )*/
+ color: #66BFBF;
+   line-height: 2;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal;
+ padding-bottom: 10px;
+}
+h3{
+
+  font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.topcontainer{
+
+  background-color: #E4F9F5;
+  position: relative;
+  padding: 100px;
+
+}
+.Pro{
+  text-decoration: underline;
+}
+.bottomcloud{
+
+  position: absolute;
+  left: 320px;
+  bottom: 400px;
+}
+.topcloud{
+
+
+  position: absolute;
+  right:300px;
+  top: 50px;
+}
+.footer-link{
+  color: #11999E;
+}
+.myphoto{
+  width: 200px;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.coding{
+  float: left;
+  margin-right: 30px;
+}
+.development{
+  float: right;
+    margin-left: 30px;
+}
+.middle-container{
+margin: 100px 0;
+
+}
+.introduction{
+width: 30%;
+margin: auto;
+
+}
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container{
+
+  background-color: #66bfbf;
+padding: 50px 0 20px;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 10px 20px;
+}
+/* if we do not want to wrap up paragraph with image we can use clear tag clear:left; left s wrapping nahi hogi, kuki uppr float use krke
+wrapping hogyi he.
+/*.topcontainer{
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+}
+.middlecontainer{
+background-color: red;
+  height: 200px;
+  width: 200px;
+
+}
+
+*/
